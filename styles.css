@@ -1,0 +1,20 @@
+/* Targets #myHeader inside a .container */
+.container #myHeader {
+  color: red;
+}
+
+/* Styles h3 immediately following any div */
+div + h3 {
+  color: green;
+}
+
+/* Styles .myText2 only when it follows .myText1 */
+.myText1 + .myText2 {
+  color: orange;
+}
+
+/* Styles both input[type=text] and input[type=email] */
+.myInput[type='text'],
+input[type='email'] {
+  border: 2px solid green;
+}

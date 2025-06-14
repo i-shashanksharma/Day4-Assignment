@@ -1,0 +1,48 @@
+/* Set background gradient and use Flexbox to center content */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, lightpink, lightsalmon);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered content container */
+.main-content {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style h1 with large font and text shadow */
+h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Style paragraph */
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Style button with rounded corners and hover effect */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
